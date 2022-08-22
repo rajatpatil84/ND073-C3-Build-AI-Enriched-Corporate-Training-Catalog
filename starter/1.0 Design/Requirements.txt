@@ -1,0 +1,9 @@
+User should be able to search course data by keywords.
+User should be able to search phrases from description and other fields.
+User should be able to filter results based on criteria such as ratings and duration.
+User should be able to filter results based on profiles of course instructors
+User should be able to sort results by relevant fields.
+User should be able to facet information based on relevant fields such as source, skils and role.
+User should be able to access open access journal in pdf format.
+User should be able to search by keyword and phrases, authors, and their associated institutions, it should have query engine.
+User should be able to search using publication name, publisher, and publication date.

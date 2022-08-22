@@ -1,0 +1,792 @@
+Query 1 = https://udacitycognitive.search.windows.net/indexes/azuretable-index/docs?api-version=2020-06-30&search=*&%24select=description%2Cduration%2Cinstructor%2Crating_average&filter=(rating_average%20gt%204.5%20and%20duration%20%3C%2010)
+
+
+output
+
+{
+  "@odata.context": "https://udacitycognitive.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "instructor": "Mike Montoya",
+      "duration": 1,
+      "rating_average": 4.9
+    },
+    {
+      "@search.score": 1,
+      "description": "For administrators, learn our best practices for securing all databases",
+      "instructor": "Eileen Diaz",
+      "duration": 3,
+      "rating_average": 4.3
+    },
+    {
+      "@search.score": 1,
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "instructor": "Claudia Blackman",
+      "duration": 3,
+      "rating_average": 4.5
+    },
+    {
+      "@search.score": 1,
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "instructor": "Eileen Diaz",
+      "duration": 3,
+      "rating_average": 4.4
+    },
+    {
+      "@search.score": 1,
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "instructor": "Claudia Blackman",
+      "duration": 5,
+      "rating_average": 4.9
+    },
+    {
+      "@search.score": 1,
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "instructor": "Gerald Dominguez",
+      "duration": 1,
+      "rating_average": 4.7
+    },
+    {
+      "@search.score": 1,
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "instructor": "Mike Montoya",
+      "duration": 1,
+      "rating_average": 4.6
+    },
+    {
+      "@search.score": 1,
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "instructor": "Claudia Blackman",
+      "duration": 3,
+      "rating_average": 3.8
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "instructor": "",
+      "duration": 24,
+      "rating_average": 4.77
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "instructor": "",
+      "duration": 55,
+      "rating_average": 4.61
+    },
+    {
+      "@search.score": 1,
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "instructor": "",
+      "duration": 82,
+      "rating_average": 4.73
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "instructor": "Eileen Diaz",
+      "duration": 1,
+      "rating_average": 4.3
+    },
+    {
+      "@search.score": 1,
+      "description": "Explore the strategic components, use cases, and special factors of an enterprise AI strategy that creates real business value, with INSEAD and Microsoft.",
+      "instructor": "",
+      "duration": 70,
+      "rating_average": 4.71
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "instructor": "Mike Montoya",
+      "duration": 1,
+      "rating_average": 4.8
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "instructor": "Eileen Diaz",
+      "duration": 3,
+      "rating_average": 4.2
+    },
+    {
+      "@search.score": 1,
+      "description": "Enable business users with key AI use cases",
+      "instructor": "",
+      "duration": 34,
+      "rating_average": 4.75
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "instructor": "Gerald Dominguez",
+      "duration": 2,
+      "rating_average": 4.6
+    },
+    {
+      "@search.score": 1,
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "instructor": "Robert Gillis",
+      "duration": 2,
+      "rating_average": 3.9
+    },
+    {
+      "@search.score": 1,
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "instructor": "Eileen Diaz",
+      "duration": 2,
+      "rating_average": 4.8
+    },
+    {
+      "@search.score": 1,
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "instructor": "",
+      "duration": 18,
+      "rating_average": 4.75
+    }
+  ]
+}
+
+Query 2 = https://udacitycognitive.search.windows.net/indexes/azuretable-index/docs?api-version=2020-06-30&search=AI%2CAzure&%24select=keyphrases
+
+
+output
+
+{
+  "@odata.context": "https://udacitycognitive.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 3.4277406,
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.384315,
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.0925692,
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.7847684,
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.6931472,
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5006912,
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.4210357,
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+Query 3 = https://udacitycognitive.search.windows.net/indexes/azuretable-index/docs?api-version=2020-06-30&search=*&facet=level
+
+
+output
+
+{
+  "@odata.context": "https://udacitycognitive.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "level": [
+      {
+        "count": 9,
+        "value": "beginner"
+      },
+      {
+        "count": 7,
+        "value": "intermediate"
+      },
+      {
+        "count": 4,
+        "value": "advanced"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "company-moodle30e3c6e5-9415-4d85-8229-c2133203c535",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "role": "all",
+      "product": "NA",
+      "duration": 1,
+      "rating_count": 550,
+      "rating_average": 4.9,
+      "url": "https://www.example.com/course2",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "source": "Company Moodle",
+      "title": "Security for database admins",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "role": "admin",
+      "product": "SQL",
+      "duration": 3,
+      "rating_count": 45,
+      "rating_average": 4.3,
+      "url": "https://www.example.com/course8",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "role": "developer",
+      "product": "git",
+      "duration": 3,
+      "rating_count": 125,
+      "rating_average": 4.5,
+      "url": "https://www.example.com/course3",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "role": "developer",
+      "product": "NA",
+      "duration": 3,
+      "rating_count": 132,
+      "rating_average": 4.4,
+      "url": "https://www.example.com/course9",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "role": "admin",
+      "product": "jenkins",
+      "duration": 5,
+      "rating_count": 56,
+      "rating_average": 4.9,
+      "url": "https://www.example.com/course5",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodlec014cf36-2a83-4ded-bfe5-d62f405ba970",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "role": "all",
+      "product": "NA",
+      "duration": 1,
+      "rating_count": 325,
+      "rating_average": 4.7,
+      "url": "https://www.example.com/course11",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodlec6b7fbd0-7390-4370-ab77-45027596b520",
+      "source": "Company Moodle",
+      "title": "Workplace Health",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "role": "all",
+      "product": "NA",
+      "duration": 1,
+      "rating_count": 525,
+      "rating_average": 4.6,
+      "url": "https://www.example.com/course13",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "role": "developer",
+      "product": "jenkins",
+      "duration": 3,
+      "rating_count": 101,
+      "rating_average": 3.8,
+      "url": "https://www.example.com/course4",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn015c2947-8e4e-44f5-b342-0564f0ee2fbf",
+      "source": "MS Learn",
+      "title": "Manage your Language Understanding Intelligent Service (LUIS) Apps",
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "instructor": "",
+      "level": "intermediate",
+      "role": "developer",
+      "product": "azure",
+      "duration": 24,
+      "rating_count": 106,
+      "rating_average": 4.77,
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "instructor": "",
+      "level": "beginner",
+      "role": "business-user",
+      "product": "ai-builder",
+      "duration": 55,
+      "rating_count": 197,
+      "rating_average": 4.61,
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn000a0d57-a0fe-4386-829c-99074d1b3b9b",
+      "source": "MS Learn",
+      "title": "Run quality tests in your build pipeline by using Azure Pipelines",
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "instructor": "",
+      "level": "beginner",
+      "role": "solution-architect",
+      "product": "azure-devops",
+      "duration": 82,
+      "rating_count": 3301,
+      "rating_average": 4.73,
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "role": "architect",
+      "product": "NA",
+      "duration": 1,
+      "rating_count": 24,
+      "rating_average": 4.3,
+      "url": "https://www.example.com/course12",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn00baaa75-89fe-4f86-805f-f08336e6af48",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value",
+      "description": "Explore the strategic components, use cases, and special factors of an enterprise AI strategy that creates real business value, with INSEAD and Microsoft.",
+      "instructor": "",
+      "level": "intermediate",
+      "role": "business-user",
+      "product": "m365",
+      "duration": 70,
+      "rating_count": 2779,
+      "rating_average": 4.71,
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "role": "all",
+      "product": "NA",
+      "duration": 1,
+      "rating_count": 540,
+      "rating_average": 4.8,
+      "url": "https://www.example.com/course1",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle9df844fd-eefe-4880-8341-936732174bb5",
+      "source": "Company Moodle",
+      "title": "Encryption and security",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "role": "architect",
+      "product": "NA",
+      "duration": 3,
+      "rating_count": 95,
+      "rating_average": 4.2,
+      "url": "https://www.example.com/course14",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn002f4436-7360-4daa-a21d-f9dcd3518589",
+      "source": "MS Learn",
+      "title": "Enable business users with key AI use cases",
+      "description": "Enable business users with key AI use cases",
+      "instructor": "",
+      "level": "beginner",
+      "role": "functional-consultant",
+      "product": "power-platform",
+      "duration": 34,
+      "rating_count": 758,
+      "rating_average": 4.75,
+      "url": "https://docs.microsoft.com/en-us/learn/modules/enable-business-users-with-key-ai-uses-cases/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle17b1eedc-0e96-4e5b-8199-83a484388efe",
+      "source": "Company Moodle",
+      "title": "O365",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "role": "all",
+      "product": "O365",
+      "duration": 2,
+      "rating_count": 510,
+      "rating_average": 4.6,
+      "url": "https://www.example.com/course10",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "role": "developer",
+      "product": "leaflet",
+      "duration": 2,
+      "rating_count": 28,
+      "rating_average": 3.9,
+      "url": "https://www.example.com/course6",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "role": "developer",
+      "product": "SQL",
+      "duration": 2,
+      "rating_count": 115,
+      "rating_average": 4.8,
+      "url": "https://www.example.com/course7",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn01731c10-20bb-41e7-ba21-8528669dcdc3",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "instructor": "",
+      "level": "advanced",
+      "role": "ai-engineer",
+      "product": "azure",
+      "duration": 18,
+      "rating_count": 137,
+      "rating_average": 4.75,
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+Query 4 = https://udacitycognitive.search.windows.net/indexes/azuretable-index/docs?api-version=2020-06-30&search=*&%24select=description%2Cduration%2Cinstructor%2Crating_average%2Csource%2C%20role&%24filter=(rating_average%20gt%204.5)&orderby=rating_average%20asc
+output
+
+{
+  "@odata.context": "https://udacitycognitive.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "instructor": "Mike Montoya",
+      "role": "all",
+      "duration": 1,
+      "rating_average": 4.9
+    },
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "instructor": "Claudia Blackman",
+      "role": "admin",
+      "duration": 5,
+      "rating_average": 4.9
+    },
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "instructor": "Gerald Dominguez",
+      "role": "all",
+      "duration": 1,
+      "rating_average": 4.7
+    },
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "instructor": "Mike Montoya",
+      "role": "all",
+      "duration": 1,
+      "rating_average": 4.6
+    },
+    {
+      "@search.score": 1,
+      "source": "MS Learn",
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "instructor": "",
+      "role": "developer",
+      "duration": 24,
+      "rating_average": 4.77
+    },
+    {
+      "@search.score": 1,
+      "source": "MS Learn",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "instructor": "",
+      "role": "business-user",
+      "duration": 55,
+      "rating_average": 4.61
+    },
+    {
+      "@search.score": 1,
+      "source": "MS Learn",
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "instructor": "",
+      "role": "solution-architect",
+      "duration": 82,
+      "rating_average": 4.73
+    },
+    {
+      "@search.score": 1,
+      "source": "MS Learn",
+      "description": "Explore the strategic components, use cases, and special factors of an enterprise AI strategy that creates real business value, with INSEAD and Microsoft.",
+      "instructor": "",
+      "role": "business-user",
+      "duration": 70,
+      "rating_average": 4.71
+    },
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "instructor": "Mike Montoya",
+      "role": "all",
+      "duration": 1,
+      "rating_average": 4.8
+    },
+    {
+      "@search.score": 1,
+      "source": "MS Learn",
+      "description": "Enable business users with key AI use cases",
+      "instructor": "",
+      "role": "functional-consultant",
+      "duration": 34,
+      "rating_average": 4.75
+    },
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "instructor": "Gerald Dominguez",
+      "role": "all",
+      "duration": 2,
+      "rating_average": 4.6
+    },
+    {
+      "@search.score": 1,
+      "source": "Company Moodle",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "instructor": "Eileen Diaz",
+      "role": "developer",
+      "duration": 2,
+      "rating_average": 4.8
+    },
+    {
+      "@search.score": 1,
+      "source": "MS Learn",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "instructor": "",
+      "role": "ai-engineer",
+      "duration": 18,
+      "rating_average": 4.75
+    }
+  ]
+}
+
+
+Query 5 = https://udacitycognitive.search.windows.net/indexes/azureblob-index/docs?api-version=2020-06-30&search=Sandhya&%24select=metadata_author%2Cmetadata_title%2Ckeyphrases
+output
+
+{
+  "@odata.context": "https://udacitycognitive.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+"value": [ { "@search.score": 0.9897405, "metadata_author": "Sandhya Narayanan ", "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter", 
+"keyphrases": [ "Distributed Memory-based Resilient Dataset Filter", "Improving prediction" ] } ] }
